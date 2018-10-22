@@ -36,19 +36,6 @@ void push(struct node** head_ref,int val){
   
  //    /* 6. Change the next of last node */
  //    last->next = new_node;
-
-
-
-
-
-
-
-
-
-
-
-
-
 	struct node* tmp = *head_ref;
 	struct node* new_node = (struct node*)malloc(sizeof(struct node));
 	new_node->data=val;
